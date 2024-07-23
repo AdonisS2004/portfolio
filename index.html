@@ -7,54 +7,71 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/index.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div class="nav">
-            <span class = "logo"></span>
-            <ul>
-                <li>
-                    <a href = "#">Home</a>
-                </li>
-                <li>
-                    <a href = "#">About Me</a>
-                </li>
-                <li>
-                    <a href = "#">Portfolio</a>
-                </li>
-                <li>
-                    <a href = "#">Experience</a>
-                </li>
-                <li>
-                    <a href = "#">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <div class = "cover" id = "Cover">
-            <span>
-                A grand Opening.
-            </span>
-        </div>
-        <div class = "section" id = "Resume">
-            <span>
-                Don't be shy!
-            </span>
-        </div>
-        <div class = "section" id = "Portfolio">
-            <span>
-                Check out th latest...
-            </span>
-        </div>
-        <div class = "section" id = "Contact">
-            <span>
-                Reach Out!
-            </span>
-        </div>
-        <div class = "section" id = "Footer">
-            
-        </div>
-        <script src="scripts/index.js" async defer></script>
+    <body class="font-sans bg-gray-100 text-gray-900">
+
+        <!-- Navigation Bar -->
+        <nav class="bg-white shadow-md text-neutral-100">
+            <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+                <a href="#" class="text-xl font-bold"><i class="fa-solid fa-seedling"></i></a>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+                    <li><a href="#resume" class="hover:text-blue-500">Resume</a></li>
+                    <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
+                    <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Landing Page -->
+        <section id="home" class="min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('path/to/your/image.jpg');">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold text-white">Welcome to My Portfolio</h1>
+                <p class="mt-4 text-xl text-gray-300">Showcasing my work and skills</p>
+            </div>
+        </section>
+    
+        <!-- Resume Section -->
+        <section id="resume" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-8">Resume</h2>
+                <p class="text-center">Here you can add your resume details...</p>
+                <!-- Add resume content here -->
+            </div>
+        </section>
+    
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-8">Portfolio</h2>
+                <p class="text-center">Sneak peek at my work...</p>
+                <!-- Add portfolio content here -->
+            </div>
+        </section>
+    
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-8">Contact</h2>
+                <p class="text-center">Feel free to reach out...</p>
+                <!-- Add contact form or details here -->
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto px-4 text-center">
+                <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+                <div class="mt-2">
+                    <a href="https://github.com/AdonisS2004" class="hover:text-gray-400 mx-2"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/adonis-serrano/" class="hover:text-gray-400 mx-2"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:adonisse@mit.edu" class="hover:text-gray-400 mx-2"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="scripts/script.js"></script>
     </body>
 </html>
