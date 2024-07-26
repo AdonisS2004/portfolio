@@ -9,6 +9,12 @@ module.exports = {
       colors: {
         customGreen: '#78866b',
         customBrown: '#55342b',
+        customWhite: '#f5f5f5',
+        customHackerGreen: "#87e37d"
+      },
+      fontFamily: {
+        customRoboto: ['"Roboto"', 'sans-serif'],
+        customLeagueSpartan: ['"League Spartan"', 'sans-serif'],
       },
     },
   },
