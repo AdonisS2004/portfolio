@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
     <head>
         <meta charset="utf-8">
         <title>Adonis Serrano - Engineering the Future</title>
@@ -68,14 +68,36 @@
         <!-- Portfolio Section -->
         <section id="portfolio" class="py-16 bg-black bg-opacity-50">
             <h2 class="text-6xl font-bold text-center mb-8 text-neutral-100">Portfolio</h2>
-            <div class="container mx-auto px-4 bg-green-600">
-                <!--Card-->
-                <!--Each Card has an image, title, and description-->
-                 <div class="container bg-orange-500">
-                    <img src="./assets/other/robot.png" alt="Robot">
-                    <h3>Robotics</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-                 </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-16">
+                <!-- Project Card 1 -->
+                <div class="relative w-full h-96 overflow-hidden">
+                    <div class="absolute inset-0 flex transition-transform duration-300 ease-in-out" id="imageSlider">
+                        <img class="w-full h-full object-contain flex-shrink-0 rounded-lg" src="./assets/projects/2.007-competition-robot/the-rookie.jpeg" alt="Project 1">
+                        <img class="w-full h-full object-contain flex-shrink-0 rounded-lg" src="./assets/projects/2.007-competition-robot/mcm-cad.png" alt="Project 1">
+                        <img class="w-full h-full object-contain flex-shrink-0 rounded-lg" src="./assets/projects/2.007-competition-robot/competition-1.jpg" alt="Project 1">
+                        <img class="w-full h-full object-contain flex-shrink-0 rounded-lg" src="./assets/projects/2.007-competition-robot/competition-2.jpg" alt="Project 1">
+                        <img class="w-full h-full object-contain flex-shrink-0 rounded-lg" src="./assets/projects/2.007-competition-robot/competition-3.jpg" alt="Project 1">
+                    </div>
+                    <button class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 rounded-full p-2 focus:outline-none" id="prevBtn">
+                        <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    </button>
+                    <button class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 rounded-full p-2 focus:outline-none" id="nextBtn">
+                        <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </button>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Project Title 1</h3>
+                        <p class="text-gray-600 mb-4">Project description goes here. This is a brief overview of what the project is about and what it accomplishes.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-violet-100 text-violet-600 rounded-full text-sm">Skill 1</span>
+                            <span class="px-3 py-1 bg-violet-100 text-violet-600 rounded-full text-sm">Skill 2</span>
+                            <span class="px-3 py-1 bg-violet-100 text-violet-600 rounded-full text-sm">Skill 3</span>
+                        </div>
+                        <a href="#" class="inline-block px-6 py-2 bg-violet-500 text-white rounded-lg transition-all duration-300 hover:bg-violet-600">Learn More</a>
+                    </div>
+                </div>
             </div>
         </section>
     

@@ -47,3 +47,12 @@
     background-color: white;
     animation: blink 1s step-end infinite;
   }
+
+  #imageSlider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+#imageSlider img {
+    flex: 0 0 100%;
+}
