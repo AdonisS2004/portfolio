@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Layout from "./components/Layout";
+import Landing from "./components/Landing";
 
 export default function Home() {
   return (
     <Layout>
-      <h1>HOME</h1>
+      <Landing />
     </Layout>
   );
 }

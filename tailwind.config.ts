@@ -11,6 +11,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "landing-image": "url('../../../public/assets/other/website-background-1.jpg')"
+      },
+      colors: {
+      },
+      fontFamily: {
+
       },
     },
   },
