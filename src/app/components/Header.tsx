@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <header className = "fixed top-0 left-0 right-0 z-50 bg-opacity-0 text-gray-900 flex justify-between items-center">
-      <span id="logo" className="lg:mx-16 pt-6 px-8">
+      <span id="logo" className="lg:mx-16 pt-6 px-8 pb-4">
         <FontAwesomeIcon 
         icon={faSeedling} 
         className="text-2xl hover:text-blue-500 drop-shadow-2xl" 
