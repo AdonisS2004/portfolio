@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
       },
       fontFamily: {
-
+        customInter: ["Inter", "sans-serif"],
       },
     },
   },
