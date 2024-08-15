@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 
 export default function Header() {
   const list_item_css = [
@@ -27,15 +28,15 @@ export default function Header() {
       </span>
       <nav className = "hidden md:flex md:items-center md:gap-x-4">
         <ul className = "md:flex md:items-center text-sm">
-          <li className = {list_item_css.join(' ')}><a href="#">HOME</a></li>
-          <li className = {list_item_css.join(' ')}><a href="#">ABOUT</a></li>
-          <li className = {list_item_css.join(' ')}><a href="#">EXPERIENCE</a></li>
-          <li className = {list_item_css.join(' ')}><a href="#">PORTOFOLIO</a></li>
-          <li className = {list_item_css.join(' ')}><a href="#">CONTACT</a></li>
+          <li><Link href={"/pages/landing"} className = {list_item_css.join(' ')}>HOME</Link></li>
+          <li><Link href={"/pages/about"} className = {list_item_css.join(' ')}>ABOUT</Link></li>
+          <li><Link href={"/pages/experience"} className = {list_item_css.join(' ')}>EXPERIENCE</Link></li>
+          <li><Link href={"/pages/portfolio"} className = {list_item_css.join(' ')}>PORTOFOLIO</Link></li>
+          <li><Link href={"/pages/contact"} className = {list_item_css.join(' ')}>CONTACT</Link></li>
         </ul>
         <ul className="flex items-center gap-x-4 md:mx-8 lg:mx-16 text-2xl">
           <li className="hover:text-blue-500 drop-shadow-2xl"><a href="https://www.linkedin.com/in/adonis-serrano/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-          <li className="hover:text-blue-500 drop-shadow-2xl"><a href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
+          <li className="hover:text-blue-500 drop-shadow-2xl"><a href="https://github.com/AdonisS2004" target="_"><FontAwesomeIcon icon={faGithub} /></a></li>
         </ul>
       </nav>
     </header>
