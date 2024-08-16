@@ -4,7 +4,7 @@ import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 export default function Navigation(){
     const list_item_css = [
-        'pt-6', 'pb-4', 'px-4', 'border-b-4', 'bg-neutral-200', 'bg-opacity-0',
+        'pt-8', 'pb-4', 'px-4', 'border-b-4', 'bg-neutral-200', 'bg-opacity-0',
         'border-black', 'border-opacity-0', "hover:text-teal-900", 'hover:border-opacity-100', 
         'hover:bg-opacity-40','hover:shadow-md', 'hover:text-neutral-600', 'hover:font-medium',
       'transition', 'ease-in-out', 'duration-300']
