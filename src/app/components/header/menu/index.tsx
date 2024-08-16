@@ -7,11 +7,11 @@ export default function Menu({isMenuOpen} : {isMenuOpen:any}) {
 
     return(
         <main className={"fixed top-0 left-0 right-0 w-full h-full z-40 flex-col " + (isMenuOpen ? 'flex' : 'hidden') + " bg-white text-black justify-center items-center lg:hidden"} >
-            <button className={nav_button_css.join(' ')}>HOME</button>
-            <button className={nav_button_css.join(' ')}>ABOUT</button>
-            <button className={nav_button_css.join(' ')}>EXPERIENCE</button>
-            <button className={nav_button_css.join(' ')}>PORTFOLIO</button>
-            <button className={nav_button_css.join(' ')}>CONTACT</button>
+            <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/landing"}>HOME</button>
+            <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/about"}>ABOUT</button>
+            <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/experience"}>EXPERIENCE</button>
+            <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/portfolio"}>PORTFOLIO</button>
+            <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/contact"}>CONTACT</button>
         </main>
     );
 }
