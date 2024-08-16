@@ -14,7 +14,7 @@ export default function Menu({isMenuOpen} : {isMenuOpen:any}) {
     ]
 
     return(
-        <main className={"fixed top-0 left-0 right-0 w-full h-full z-40 flex-col transition ease-in-out duration-300 " + (isMenuOpen ? 'flex' : 'hidden') + " bg-white text-black justify-center items-center lg:hidden"} >
+        <main className={"fixed top-0 left-0 right-0 w-full h-full z-40 flex flex-col transition ease-in-out duration-500 " + (isMenuOpen ? 'translate-x-0' : 'translate-x-full') + " bg-white text-black justify-center items-center lg:hidden"} >
             <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/landing"}>HOME</button>
             <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/about"}>ABOUT</button>
             <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/experience"}>EXPERIENCE</button>
