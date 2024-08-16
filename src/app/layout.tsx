@@ -3,8 +3,8 @@ import { Inter } from "next/font/google";
 import "./styles/globals.css";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/header";
+import Footer from "./components/footer";
 config.autoAddCss = false
 
 
@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={inter.className}>
       <Header />
         <main className="w-screen h-screen bg-landing-image bg-fixed bg-cover flex justify-center items-center">
-          <div className="bg-neutral-900 bg-opacity-20 fixed left-0 top-0 right-0 z-10 w-screen h-screen"></div> {/* opacity overlay for bakcground image */}
+          <div className="bg-neutral-900 bg-opacity-30 fixed left-0 top-0 right-0 z-10 w-screen h-screen"></div> {/* opacity overlay for bakcground image */}
           {children}
         </main>
       <Footer />

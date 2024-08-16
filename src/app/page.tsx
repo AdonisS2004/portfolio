@@ -1,13 +1,9 @@
-import Image from "next/image";
-import Header from "./components/Header";
-import Footer from "./components/Footer"
 import Landing from "./pages/landing/page";
-import About from "./pages/about/page"
-import Portfolio from "./pages/portfolio/page"
-
 
 export default function Home() {
   return (
+    <main className="w-4/5 h-3/4 rounded-xl bg-neutral-900 bg-opacity-50 z-30 flex justify-center items-center text-white font-customInter">
       <Landing />
+    </main>
   );
 }

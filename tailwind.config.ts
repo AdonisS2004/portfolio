@@ -18,6 +18,9 @@ const config: Config = {
       fontFamily: {
         customInter: ["Inter", "sans-serif"],
       },
+      dropShadow: {
+        'logo' : "0 4px 6px rgba(255, 255, 255, 1)",
+      }
     },
   },
   plugins: [],
