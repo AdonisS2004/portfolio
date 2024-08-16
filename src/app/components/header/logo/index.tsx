@@ -8,7 +8,7 @@ export default function Logo(){
             <Link href="/pages/landing">
                 <FontAwesomeIcon 
                 icon={faSeedling} 
-                className="text-4xl drop-shadow-2xl hover:text-teal-900 transition ease-in-out duration-300 hover:drop-shadow-logo" 
+                className="text-3xl drop-shadow-2xl hover:text-teal-900 transition ease-in-out duration-300 hover:drop-shadow-logo" 
                 />
             </ Link>
         </span>
