@@ -4,6 +4,11 @@
  */
 
 import type {Config} from 'jest';
+const nextJest = require('next/jest');
+
+const createJestConfig = nextJest({
+  dir: './',
+})
 
 const config: Config = {
   // All imported modules in your tests should be mocked automatically
@@ -194,6 +199,8 @@ const config: Config = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  preset: 'ts-jest' ,
 };
 
-export default config;
+module.exports = createJestConfig(config)
