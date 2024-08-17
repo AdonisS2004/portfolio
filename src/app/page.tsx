@@ -1,11 +1,9 @@
-import Image from "next/image";
-import Layout from "./components/Layout";
-import Landing from "./components/Landing";
+import Landing from "./pages/landing/page";
 
 export default function Home() {
   return (
-    <Layout>
+    <main className="w-4/5 h-3/4 rounded-xl bg-neutral-900 bg-opacity-50 z-30 flex justify-center items-center text-white font-customInter">
       <Landing />
-    </Layout>
+    </main>
   );
 }
