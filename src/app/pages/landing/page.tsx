@@ -34,15 +34,13 @@ export default function Landing() {
                 <span className="w-full text-4xl mb-5 font-bold">
                     Drive, <span>Determination</span>, & <span className="text-teal-300 drop-shadow-landing">INNOVATION</span>
                 </span>
-                <div className="mb-4 text-justify corner p-5 text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                quia. Quo neque error repudiandae fuga? 
+                <div className="mb-4 corner p-5 text-gray-200">
+                I am an engineer with a passion for innovation and technology. I currently attend
+                the Massachusetts Institute of Technology where I am majoring in an Engineering track 
+                Concentrated in Controls, Instrumentation, and Robotics. I have Software Developement experience building
+                tools for companies such as Amazon and Intel. I also have modeling, prototyping, and fabrication experience
+                through teama and personal projects, as well as through courses I take at university. Check out my resume 
+                and feel free to learn about me with the links below!
                 </div>
                 
                 <div id="technologies" className="space-x-3">
@@ -51,16 +49,15 @@ export default function Landing() {
         
             </div>
             <div className={"row-span-7 col-span-1 w-full h-full hidden md:flex rounded-md justify-center items-center"}>
-                <Image src={"/assets/other/robot.png"} alt="Robot for landing page" width={400} height={300}></Image>
+                <Image src={"/assets/other/robot.png"} alt="Robot for landing page" width={500} height={300}></Image>
             </div>
-            <div className="row-span-1 col-span-3 w-full h-full rounded-md flex items-center justify-center space-x-5">
+            <div className="row-span-1 col-span-3 w-full h-full rounded-md flex items-center justify-center space-x-14">
                 <Link href="https://drive.google.com/file/d/1akXA_cgAoRW8BnbrE2CJQM9VTZZQBFAj/view?usp=drive_link" className="text-white bg-indigo-400 px-8 py-3 text-md font-bold rounded-xl shadow-md shadow-slate-200">
                     Resume
                 </Link>
-                <span>
-                    or
-                </span> 
-                <Link href="/pages/portfolio" className="text-center uppercase text-sm"> Learn More <br></br> </Link>
+                <Link href="/pages/portfolio" className="text-white bg-indigo-400 px-8 py-3 text-md font-bold rounded-xl shadow-md shadow-slate-200">
+                    Learn More
+                </Link>
             </div>
         </main>
     )
