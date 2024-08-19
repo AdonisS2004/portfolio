@@ -8,15 +8,17 @@ export default function ProjectContainer({Project} : {Project:any}){
 
     ]
     return(
-        <main className="w-full h-full bg-gray-200 flex space-x-2">
-            <div className="bg-blue-200 w-1/2 h-full overflow-hidden">
+        <main className="w-full h-full bg-gray-200 flex flex-col lg:flex-row lg:space-x-2 overflow-scroll">
+            <div className="bg-blue-200 w-full lg:w-1/2 h-full overflow-hidden">
                 <span className="flex items-end w-full bg-yellow-100 capitalize text-4xl p-4">{Project.title}</span>
                 <ImageCarousel />
             </div>
-            <div className="bg-blue-200 w-1/2 h-full p-4 overflow-scroll">
+            <div className="bg-blue-200 w-full lg:w-1/2 h-full p-4 overflow-scroll">
                 <h2 className={h2CSS.join(" ")}>Description</h2>
+                <div className=""></div>
                 <p>{Project.description}</p>
                 <h2 className={h2CSS.join(" ")}>Skills and Technologies:</h2>
+                <div className=""></div>
                 <p>{Project.skills}</p>
             </div>
         </main>
