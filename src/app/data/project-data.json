@@ -1,0 +1,22 @@
+[
+    {
+        "title": "project-title-1",
+        "description": "project-description-1",
+        "skills": "skills-and-technologies-1",
+        "images": ["image-1", "image-2", "image-3"]
+    },
+
+    {
+        "title": "project-title-2",
+        "description": "project-description-2",
+        "skills": "skills-and-technologies-2",
+        "images": ["image-1", "image-2", "image-3"]
+    },
+
+    {
+        "title": "project-title-3",
+        "description": "project-description-3",
+        "skills": "skills-and-technologies-3",
+        "images": ["image-1", "image-2", "image-3"]
+    }
+]

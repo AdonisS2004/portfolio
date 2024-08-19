@@ -19,7 +19,7 @@ export default function Menu({isMenuOpen} : {isMenuOpen:any}) {
             <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/about"}>ABOUT</button>
             <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/experience"}>EXPERIENCE</button>
             <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/portfolio"}>PORTFOLIO</button>
-            <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/contact"}>CONTACT</button>
+            {/* <button className={nav_button_css.join(' ')} onClick={() => location.href = "/pages/contact"}>CONTACT</button> */}
             <ul className="flex items-center gap-x-4 md:mx-8 lg:mx-16 text-3xl mt-4">
                 <li className={external_link_css.join(' ')}><a href="https://www.linkedin.com/in/adonis-serrano/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li className={external_link_css.join(' ')}><a href="https://github.com/AdonisS2004" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
