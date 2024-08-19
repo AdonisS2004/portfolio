@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing page Should remain unchanges 1`] = `
+<div>
+  <main
+    class="w-full grid grid-cols-3 grid-rows-8 text-black h-full"
+  >
+    <div
+      class="lg:pl-28 row-span-7 col-span-3 lg:col-span-2 w-full h-full flex flex-col justify-center items-center lg:items-start rounded-md text-white font-customSpartan"
+    >
+      <span
+        class="mt-4 mb-2 w-full font-bold text-2xl md:text-4xl xl:text-5xl text-center lg:text-left"
+      >
+        ADONIS SERRANO
+      </span>
+      <div
+        class="h-2 w-1/4 bg-white mb-5"
+      />
+      <span
+        class="w-full text-sm md:text-lg font-light italic text-neutral-300 underline"
+      >
+        Engineer fueled by:
+      </span>
+      <span
+        class="w-full text-md md:text-2xl xl:text-4xl mb-5 font-bold"
+      >
+        Drive, 
+        <span>
+          Determination
+        </span>
+        , & 
+        <span
+          class="text-teal-300 drop-shadow-landing"
+        >
+          INNOVATION
+        </span>
+      </span>
+      <div
+        class="corner mb-4 p-5 text-gray-200 text-center text-xs md:text-sm xl:"
+      >
+        I am an engineer with a passion for innovation and technology. I currently attend the Massachusetts Institute of Technology where I am majoring in an Engineering track Concentrated in Controls, Instrumentation, and Robotics. I have Software Developement experience building tools for companies such as Amazon and Intel. I also have modeling, prototyping, and fabrication experience through teama and personal projects, as well as through courses I take at university. Check out my resume and feel free to learn about me with the links below!
+      </div>
+      <div
+        class="hidden md:flex space-x-2"
+        id="technologies"
+      >
+        <span />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/01_python.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/02_c++.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/03_react.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/04_next-js.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/05_html5.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/06_css3.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/07_javascript.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/08_java.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/09_fusion360.svg"
+          style="color: transparent;"
+          width="50"
+        />
+        <img
+          alt="tech icon"
+          class="w-8 md:w-10"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/assets/icons/10_matlab.svg"
+          style="color: transparent;"
+          width="50"
+        />
+      </div>
+    </div>
+    <div
+      class="row-span-7 col-span-1 w-full h-full hidden lg:flex rounded-md justify-center items-center"
+    >
+      <img
+        alt="Robot for landing page"
+        data-nimg="1"
+        decoding="async"
+        height="300"
+        loading="lazy"
+        src="/_next/image?url=%2Fassets%2Fother%2Frobot.png&w=1080&q=75"
+        srcset="/_next/image?url=%2Fassets%2Fother%2Frobot.png&w=640&q=75 1x, /_next/image?url=%2Fassets%2Fother%2Frobot.png&w=1080&q=75 2x"
+        style="color: transparent;"
+        width="500"
+      />
+    </div>
+    <div
+      class="row-span-1 col-span-3 w-full h-full rounded-md flex items-center justify-center space-x-6 text-sm md:text-base"
+    >
+      <a
+        class="text-white bg-slate-500 px-4 py-3 font-bold rounded-xl shadow-md shadow-slate-200 hover:bg-slate-100 hover:text-blue-950 transition ease-in-out duration-200 hover:shadow-teal-400"
+        href="https://drive.google.com/file/d/1akXA_cgAoRW8BnbrE2CJQM9VTZZQBFAj/view?usp=drive_link"
+      >
+        Resume
+      </a>
+      <a
+        class="text-white bg-slate-500 px-4 py-3 font-bold rounded-xl shadow-md shadow-slate-200 hover:bg-slate-100 hover:text-blue-950 transition ease-in-out duration-200 hover:shadow-teal-400"
+        href="/pages/portfolio"
+      >
+        Learn More
+      </a>
+    </div>
+  </main>
+</div>
+`;

@@ -32,7 +32,7 @@ export default function Landing() {
     );
 
     return (
-        <main className = "w-full grid grid-cols-3 grid-rows-8 text-black h-full p-8">
+        <main className = "w-full grid grid-cols-3 grid-rows-8 text-black h-full">
             <div className={"lg:pl-28 row-span-7 col-span-3 lg:col-span-2 w-full h-full flex flex-col justify-center items-center lg:items-start rounded-md text-white font-customSpartan"}>
                 <span className="mt-4 mb-2 w-full font-bold text-2xl md:text-4xl xl:text-5xl text-center lg:text-left">
                     ADONIS SERRANO 

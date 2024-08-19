@@ -21,7 +21,7 @@ export default function Navigation(){
               <li><Link href={"/pages/about"} className = {list_item_css.join(' ')}>ABOUT</Link></li>
               <li><Link href={"/pages/experience"} className = {list_item_css.join(' ')}>EXPERIENCE</Link></li>
               <li><Link href={"/pages/portfolio"} className = {list_item_css.join(' ')}>PORTOFOLIO</Link></li>
-              <li><Link href={"/pages/contact"} className = {list_item_css.join(' ')}>CONTACT</Link></li>
+              {/* <li><Link href={"/pages/contact"} className = {list_item_css.join(' ')}>CONTACT</Link></li> */}
             </ul>
             <ul className="flex items-center gap-x-4 md:mx-8 lg:mx-16 text-3xl">
               <li className={external_link_css.join(' ')}><a href="https://www.linkedin.com/in/adonis-serrano/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
