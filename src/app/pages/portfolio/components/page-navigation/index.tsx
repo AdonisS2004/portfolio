@@ -2,7 +2,9 @@ import Link from "next/link";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function PageNavigation({numbers, currentPage, setCurrentPage}:{numbers:Array<number>, currentPage:any, setCurrentPage:Function}){
+export default function PageNavigation(
+    {numbers, currentPage, setCurrentPage}:{numbers:Array<number>, currentPage:any, setCurrentPage:Function}
+){
     const arrows_css = [
         "flex items-center p-1 text-gray-400",
         "transition ease-in-out duration-100",
@@ -50,5 +52,5 @@ function nextPage(current:any, setFunction:any, numbers:any){
 }
 
 function toPage(page:any, setFunction:any){
-    setFunction(page)
+    setFunction(page);
 }

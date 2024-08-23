@@ -1,22 +1,39 @@
 [
     {
-        "title": "project-title-1",
-        "description": "project-description-1",
-        "skills": "skills-and-technologies-1",
-        "images": ["image-1", "image-2", "image-3"]
+        "title": "2.007 Competition Robot",
+        "description": "Fabricated a robot to tackle competition obstacles using materials such as sheet metal, delrin, speed/torque servos, and LDO motors utilizing wokshop machines such as the Lathe, CNC Mill, Bandsaw, and Waterjet; Used Fusion360 to CAD robot modules to test joint dynamics, conduct FEA to improve robot stability, and plan robot fabrication to reduce time spent in workshop. Utilized FRDPARRC design process to organize and document design iterations and improve robot performance.",
+        "skills": "Fusion360, FEA Analysis, Arduino, Servo, CNC Mill, Bandsaw, Waterjet",
+        "images": [
+            "/assets/projects/2.007-competition-robot/the-rookie.jpeg",
+            "/assets/projects/2.007-competition-robot/electronics.jpeg",
+            "/assets/projects/2.007-competition-robot/mcm-cad.png",
+            "/assets/projects/2.007-competition-robot/competition-1.jpg", 
+            "/assets/projects/2.007-competition-robot/competition-2.jpg", 
+            "/assets/projects/2.007-competition-robot/competition-3.jpg"
+        ]
     },
 
     {
-        "title": "project-title-2",
-        "description": "project-description-2",
-        "skills": "skills-and-technologies-2",
-        "images": ["image-1", "image-2", "image-3"]
+        "title": "Line Following Robot",
+        "description": "Wired and Programmed a line following robot capable of navigating a complex line following obstacle course; Placed 4th out of 100+ competitors. Constructed a two motor rear-wheel drive train, adding infrared sensors for precise line following, LED’s for testing and monitoring, and an Arduino Nano to store control algorithms that read IR data and calculate motor speeds. Programmed and tuned a PID control algorithm that utilized IR data to control motor speeds for accurate line following; implemented a state-machine to handle edges cases",
+        "skills": "Arduino, IR Sensors, PID Control, State Machine",
+        "images": [
+            "/assets/projects/2.678-line-following-robot/line-follower.jpeg", 
+            "/assets/projects/2.678-line-following-robot/board.jpeg", 
+            "/assets/projects/2.678-line-following-robot/people.jpeg"]
     },
 
     {
-        "title": "project-title-3",
-        "description": "project-description-3",
-        "skills": "skills-and-technologies-3",
-        "images": ["image-1", "image-2", "image-3"]
+        "title": "V.I.S.I.O.N.",
+        "description": "Designed and engineered a high-tech walking cane that utilized embedded systems to aid blind navigation. Organized and developed the software with Python that controlled a complex system of electronics and sensors, such as object detection, audio and tactile alarms, and video support with a camera for further aid. Improved upon basic designs of a regular walking stick by implementing sensors such as an ultrasonic and limit switch.",
+        "skills": "Embedded Systems, Ciruit Python, Python, Raspberry Pi, Ultrasonic Sensor, Audio and Video Sensors",
+        "images": [
+            "/assets/projects/vision/product-vision-1.jpeg", 
+            "/assets/projects/vision/product-vision-2.jpeg", 
+            "/assets/projects/vision/product-vision-3.jpeg",
+            "/assets/projects/vision/prototype-camera.jpeg",
+            "/assets/projects/vision/prototype-joystick.jpeg",
+            "/assets/projects/vision/prototype-ultrasonic.jpeg"
+        ]
     }
 ]
